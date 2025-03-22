@@ -13,7 +13,7 @@ class _HomeState extends State<Home> {
   int _selectedIndex = 0;
 
   final List<Widget> _pages = [
-    Container(color: Colors.white),
+    Container(color: const Color.fromARGB(255, 224, 19, 19)),
     Container(color: Colors.blue),
     Container(color: Colors.green),
     Container(color: Colors.orange),
